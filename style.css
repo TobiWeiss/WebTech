@@ -1,5 +1,5 @@
 
-vertical-menu{
+.vertical-menu{
 
 	background-color: #eee; 
     color: green; 
@@ -14,3 +14,12 @@ header{
     border: 2px solid red;
     border-radius: 5px;
 }
+
+.navbar {
+    background-color: #eee;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
