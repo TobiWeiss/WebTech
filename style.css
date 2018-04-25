@@ -7,4 +7,5 @@ vertical-menu{
     padding: 12px; 
     text-decoration: none; 
     width: 200 px;
+    float: left;
 }
