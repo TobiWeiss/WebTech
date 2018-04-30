@@ -12,6 +12,7 @@
     width: 100%;
     text-align: center;
     background-color: #433;
+
 }
 
 .footer a {
@@ -45,7 +46,7 @@
   overflow: hidden;
 }
 .video {
-    width="100%"
+    width:100%;
 }
 /* Dropdown button */
 .dropdown .dropbtn {
