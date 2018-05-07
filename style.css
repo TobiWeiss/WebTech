@@ -185,3 +185,91 @@ a.link:hover, a.link:active {
     background-color: #433;
     color: white;
 }
+
+/* Tickets and Information */ 
+
+
+.title{
+    color: #FEFEFE;
+    text-transform: capitalize;
+    line-height: 2.5;
+    position: relative;
+}
+.content{
+    position: relative;
+    color: #FEFEFE;
+    padding: 20px 0 10px 0;
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+
+.pricing-table {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+    padding-right: 0;
+}
+.pricing-table .heading{
+    color: #9C9E9F;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+.price{
+    position: relative;
+    display: inline-block;
+}
+.price span{    
+    font-size: 6rem;
+    letter-spacing: 8px;
+    font-weight: bold;        
+}
+.price sup{
+    font-size: 1.5rem;    
+    position: absolute;    
+    top: 12px;
+    left: -12px;
+}
+
+.features{
+    list-style-type: none;    
+    background: #FFFFFF;
+    text-align: center;
+    color: #9C9C9C;
+    font-size: 0.9rem;
+}
+.features li{
+    padding:15px 0;
+    width: 100%;
+}
+.features li span{
+   padding-right: 0.4rem; 
+}
+
+.Basic .title{        
+    background: rgb(120, 133, 207);    
+}
+.Basic .content{
+    background: rgb(73, 82, 129);
+}
+
+.Premium .title{
+    background: rgb(221, 44, 44);
+}
+.Premium .content{
+    background: rgb(160, 7, 7);
+}
+
+.Platinum .title{
+    background: rgb(160, 158, 159);
+}
+.Platinum .content{
+    background: rgb(114, 111, 113);
+}
