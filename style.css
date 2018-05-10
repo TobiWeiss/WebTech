@@ -3,6 +3,10 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 .footer {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
@@ -15,7 +19,7 @@
 
 }
 
-.footer a {
+.footera {
     font-size: 16px;
     color: white;
     text-align: center;
@@ -39,6 +43,7 @@
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 /* The dropdown container */
 .dropdown {
@@ -151,9 +156,6 @@ form {
     margin: auto;
     width: 25%;
     padding: 10px;
-    text-align: center;margin: auto;
-    width: 25%;
-    padding: 10px;
     text-align: center;
 }
 input {
@@ -185,6 +187,7 @@ a.link:hover, a.link:active {
     background-color: #433;
     color: white;
 }
+
 
 /* Tickets and Information */ 
 
@@ -273,3 +276,4 @@ a.link:hover, a.link:active {
 .Platinum .content{
     background: rgb(114, 111, 113);
 }
+
