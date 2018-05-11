@@ -196,7 +196,7 @@ a.link:hover, a.link:active {
     color: #FEFEFE;
     text-transform: capitalize;
     line-height: 2.5;
-    position: relative;
+    position: center;
 }
 .content{
     position: relative;
@@ -275,6 +275,14 @@ a.link:hover, a.link:active {
 }
 .Platinum .content{
     background: rgb(114, 111, 113);
+}
+
+.Information .title{
+  background: rgb(120, 133, 207)
+}
+
+.Information .content{
+  background: rgb(73, 82, 129)
 }
 
 
