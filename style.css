@@ -5,6 +5,7 @@
 
 h1 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
 }
 
 .footer {
@@ -32,6 +33,10 @@ h1 {
   overflow: hidden;
   background-color: #433;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.activeItem {
+    background-color: white;
 }
 
 /* Links inside the navbar */
