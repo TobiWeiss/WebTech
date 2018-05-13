@@ -11,5 +11,5 @@ Externe Links:
 TL1-Groups-A.html ff.
 
 HTML-5-Elemente:
-nav (z.B. TL1.html), footer (z.B. TL1.html), video(TL1.html)
+nav (z.B. TL1.html), footer (z.B. TL1.html), video(TL1.html), article (TL1-Tickets&Information)
 
