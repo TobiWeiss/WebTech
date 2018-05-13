@@ -3,56 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 
-<img class="banner" src="Banner_en.jpg" alt="World Cup Logo">
+     <img class="banner" src="Banner_en.jpg" alt="World Cup Logo" >
 
-<div class="navbar">
-    <a href="TL1.html">Home</a>
-    <a href="TL1-Matches.html">Matches</a>
-    <div class="dropdown">
-        <a class="dropbtn" href="TL1-Groups.html">Groups
-        </a><br><br><br>
-        <div class="dropdown-content">
-            <a href="TL1-Groups-A.html">Group A</a>
-            <a href="TL1-Groups-B.html">Group B</a>
-            <a href="TL1-Groups-C.html">Group C</a>
-            <a href="TL1-Groups-D.html">Group D</a>
-            <a href="TL1-Groups-E.html">Group E</a>
-            <a href="TL1-Groups-F.html">Group F</a>
-            <a href="TL1-Groups-G.html">Group G</a>
-            <a href="TL1-Groups-H.html">Group H</a>
+     <div class="navbar">
+            <a href="TL1.html">Home</a>
+            <a href="TL1-Matches.html">Matches</a>
+            <div class="dropdown">
+                 <button class="dropbtn" onclick="window.location.href='TL1-Groups.html'">Groups 
+                 </button>
+                 <div class="dropdown-content">
+                    <a href="TL1-Groups-A.html">Group A</a>
+                    <a href="TL1-Groups-B.html">Group B</a>
+                    <a href="TL1-Groups-C.html">Group C</a>
+                    <a href="TL1-Groups-D.html">Group D</a>
+                    <a href="TL1-Groups-E.html">Group E</a>
+                    <a href="TL1-Groups-F.html">Group F</a>
+                    <a href="TL1-Groups-G.html">Group G</a>                        
+                    <a href="TL1-Groups-H.html">Group H</a>
+                 </div>
+            </div> 
+            <a href="TL1-Tickets&Information.html"> Tickets & Information </a>
         </div>
-    </div>
-    <a href="TL1-Tickets&Information.html"> Tickets & Information </a>
-</div>
 
-<form action="/contact.php" method="post">
-    <h2>Feel free to contact us about any issues or questions concerning this website.</h2><br>
+    <form action="/contact.php" method="post">
+        <legend>Feel free to contact us about any issues or questions concerning this website.</legend><br>
 
-    <label for="vname">First Name:</label>
-    <input id="vname" name="vname" required autofocus><br>
+        <label for="vname">First Name:</label>
+        <input id="vname" name="vname" required autofocus><br>
 
-    <label for="nname">Last Name:</label>
-    <input id="nname" name="nname" required><br>
+        <label for="nname">Last Name:</label>
+        <input id="nname" name="nname" required><br>
 
-    <label for="mail">E-Mail:</label>
-    <input type="email" id="mail" name="mail" required><br>
+        <label for="mail">E-Mail:</label>
+        <input type="email" id="mail" name="mail" required><br>
 
-    <label for="nachricht"> Your messsage:</label>
-    <textarea id="nachricht" name="nachricht" required></textarea><br>
+        <label for="nachricht"> Your messsage:</label>
+        <textarea id="nachricht" name="nachricht" required></textarea><br>
 
-    <input id="submit" type="submit" value="submit">
-</form>
-
-
-<footer class="footer">
-    <a class="footera" href="TL1-Contact.html"><u>Contact</u></a>
-    <a class="footera" href="TL1-Impressum.html"> Impressum </a>
-</footer>
+        <input id="submit" type="submit" value="senden">
+    </form>
 
 </body>
+
+<footer class="footer">
+        <a class="footera" href="TL1-Contact.html"> Contact</a>
+        <a class="footera" href="Impressum.html"> Impressum </a>
+</footer>
+
 </html>
